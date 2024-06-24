@@ -14,7 +14,8 @@ export default function Header(){
         doLogin()
 
         .then(wallet=>{
-          alert(wallet)
+          //alert(wallet)
+          window.location.reload()
         })
         .catch(err=>{
           console.log(err)
